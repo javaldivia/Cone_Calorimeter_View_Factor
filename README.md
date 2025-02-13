@@ -17,7 +17,7 @@ For a comprehensive discussion of the theoretical framework and experimental val
 
 ## Background  
 
-Radiative heat transfer plays a crucial role in fire testing, particularly in cone calorimeter experiments conducted under **ISO 5660** and **ASTM E1354**. These standards assume a uniform irradiance distribution over the specimen surface, but in practice, spatial variations can occur due to geometric and optical factors.  
+Radiative heat transfer plays a crucial role in fire testing, particularly in cone calorimeter experiments conducted under [**ISO 5660**](https://www.iso.org/standard/57957.html) and [**ASTM E1354**](https://www.astm.org/e1354-23.html). These standards assume a uniform irradiance distribution over the specimen surface, but in practice, spatial variations can occur due to geometric and optical factors.  
 
 A **cone heater** is commonly used to provide a controlled heat flux to a sample, simulating fire exposure conditions. The distribution of irradiance on the specimen is influenced by the **view factor**, which accounts for the geometric relationship between the heater and the sample. Deviations from uniformity can lead to inaccuracies in heat flux measurements, material degradation analysis, and fire modeling efforts.  
 
