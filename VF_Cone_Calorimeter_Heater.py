@@ -1,4 +1,4 @@
-# Copyright (c) 2025 Jorge A. Valdivia & Pablo E. Pinto
+# Copyright (c) 2025 Jorge A. Valdivia
 # Licensed under the MIT License (see LICENSE file for details)
 
 import numpy as np
