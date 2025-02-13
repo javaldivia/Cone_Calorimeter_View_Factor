@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Your Name
+# Licensed under the MIT License (see LICENSE file for details)
+
 import numpy as np
 from scipy.integrate import dblquad
 
