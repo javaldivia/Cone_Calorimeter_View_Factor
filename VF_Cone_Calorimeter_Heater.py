@@ -1,4 +1,4 @@
-# Copyright (c) 2025 Your Name
+# Copyright (c) 2025 Jorge A. Valdivia & Pablo E. Pinto
 # Licensed under the MIT License (see LICENSE file for details)
 
 import numpy as np
@@ -71,6 +71,7 @@ def VF_dA_to_TC(h,k,d,p):
 
 ## (3) View factor from square sample, $s$, of side $p$, to the cone heater: Helical coil (HC)
 def VF_sample_HC(p, d):
+    # Constants
     R1 = 40  # radial distance
     R2 = 40  # radial distance
     H  = 65   # cone-heater height
@@ -97,6 +98,7 @@ def VF_sample_HC(p, d):
 
 ## (4) View factor from square sample, $s$, of side $p$, to the cone heater: Truncated cone (TC)
 def VF_sample_TC(p, d):
+    # Constants
     R1 = 40  # radial distance
     R2 = 40  # radial distance
     H  = 65   # cone-heater height
