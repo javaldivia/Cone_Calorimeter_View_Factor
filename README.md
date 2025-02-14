@@ -72,7 +72,7 @@ These parameters, as illustrated in the schematic, define the spatial configurat
 ### Radiative heat flux
 The incident radiation to the target, represented by the heat flux gauge sensor area and denoted as $\dot{q}_{inc,g}''$, is related to the power emitted from the cone heater, $\dot{q}_{emi,c}$, by the following expression:
 
-$
+```math
 \dot{q}_{emi,c}F_{c\rightarrow {g}}=A_g\\dot{q}_{inc,g}''
-$
+```
 
