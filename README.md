@@ -76,7 +76,7 @@ The incident radiation to the target, represented by the heat flux gauge sensor 
 ```
 Here, $`F_{c\rightarrow {g}}`$ is the view factor from the cone heater to the gauge's sensor. By applying the reciprocity rule of view factors, $`A_{c}F_{c\rightarrow{g}}=A_{g}F_{g\rightarrow{c}}`$, the previous equation can be rearranged to express $`\dot{q}''_{inc,g}`$:
 ```math
-\dot{q}''_{inc,g}=F_{g\rightarrow{c}}\dot{q}''_{emi,c}=F_{g\rightarrow{c}}\varepsilon_c \sigma T_c^{4}
+\dot{q}^{\prime\prime}_{inc,g}=F_{g\rightarrow{c}}\dot{q}^{\prime\prime}_{emi,c}=F_{g\rightarrow{c}}\varepsilon_c \sigma T_c^{4}
 ```
 In this equation, $`F_{g \rightarrow{c}}`$ is the view factor from the gauge's sensor ($g$) to the cone heater ($c$), while $\varepsilon_c$ denotes the emissivity of the cone heater surface, $\sigma$ is the Stefan-Boltzmann constant, and $T_c$ is the temperature of the cone heater. 
 
