@@ -2,6 +2,12 @@
 
 These set of codes calculates the view factor from a target (differential element or a sample surface) to the cone calorimeter heater. 
 
+## Version
+- **Version**: 1.0.0
+- **Release Date**: February 13, 2025
+- **Changelog**: 
+  - Initial release
+
 ## Analysis of Radiative Heat Transfer in Cone Heater Experiments
 
 This repository provides Python scripts for analyzing radiative heat transfer in cone heater experiments, focusing on view factors and irradiance distribution. The code is based on the methodologies detailed in our paper:
