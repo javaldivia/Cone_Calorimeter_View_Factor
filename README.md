@@ -67,4 +67,11 @@ This repository contains four Python scripts for computing the **view factor (VF
 
 These parameters, as illustrated in the schematic, define the spatial configuration for computing the view factors.  
 
+## Mathematical formulation
+
+### Radiative heat flux
+The incident radiation to the target, represented by the heat flux gauge sensor area and denoted as $\dot{q}_{inc,g}''$, is related to the power emitted from the cone heater, $\dot{q}_{emi,c}$, by the following expression:
+$$
+\dot{q}_{emi,c}\,F_{c\rightarrow {g}}=A_g\, \dot{q}_{inc,g}''
+$$
 
