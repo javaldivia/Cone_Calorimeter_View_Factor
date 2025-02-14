@@ -70,13 +70,24 @@ These parameters, as illustrated in the schematic, define the spatial configurat
 ## Mathematical formulation
 
 ### Radiative heat flux
-The incident radiation to the target, represented by the heat flux gauge sensor area and denoted as $`\dot{q}_{inc,g}''`$, is related to the power emitted from the cone heater, $\dot{q}_{emi,c}$, by the following expression:
+The incident radiation to the target, represented by the heat flux gauge sensor area and denoted as $`\dot{q}_{inc,g}^{\prime\prime}`$, is related to the power emitted from the cone heater, $\dot{q}_{emi,c}$, by the following expression:
 ```math
-\dot{q}_{emi,c}\,F_{c\rightarrow {g}}=A_g\,\dot{q}_{inc,g}''
+\dot{q}_{emi,c}\,F_{c\rightarrow {g}}=A_g\,\dot{q}_{inc,g}^{\prime\prime}
 ```
-Here, $`F_{c\rightarrow {g}}`$ is the view factor from the cone heater to the gauge's sensor. By applying the reciprocity rule of view factors, $`A_{c}F_{c\rightarrow{g}}=A_{g}F_{g\rightarrow{c}}`$, the previous equation can be rearranged to express $`\dot{q}''_{inc,g}`$:
+
+Here, $`F_{c\rightarrow {g}}`$ is the view factor from the cone heater to the gauge's sensor. By applying the reciprocity rule of view factors, $`A_{c}F_{c\rightarrow{g}}=A_{g}F_{g\rightarrow{c}}`$, the previous equation can be rearranged to express $`\dot{q}^{\prime\prime}_{inc,g}`$:
 ```math
 \dot{q}^{\prime\prime}_{inc,g}=F_{g\rightarrow{c}}\dot{q}^{\prime\prime}_{emi,c}=F_{g\rightarrow{c}}\varepsilon_c \sigma T_c^{4}
 ```
+
 In this equation, $`F_{g \rightarrow{c}}`$ is the view factor from the gauge's sensor ($g$) to the cone heater ($c$), while $\varepsilon_c$ denotes the emissivity of the cone heater surface, $\sigma$ is the Stefan-Boltzmann constant, and $T_c$ is the temperature of the cone heater. 
+
+### View factor definition
+The view factor between two finite surfaces, $A_{i}$ and $A_{j}$, can be calculated mathematically from their contours $`\Gamma_{i}`$ and $`\Gamma_{j}`$, respectively, by applying Stokes' theorem twice to the view factor definition (given by the surface integrals):
+```math
+F_{{i}\rightarrow{{j}}}=\dfrac{1}{2\pi A_{i}}\oint_{\Gamma_{j}}\oint_{\Gamma_{i}}\ln(R_{ij})\,d\boldsymbol{r}_{i}d\boldsymbol{r}_{j}
+```
+
+Here, $`R_{ij}`$ represents the Euclidean distance between the contours defined by the positions $`\boldsymbol{r}_{i}`$ and $`\boldsymbol{r}_{j}`$, respectively. This contour methodology is utilized to determine the view factor between the cone heater and targets (e.g., radiometer or small patch of a sample surface) positioned at various locations from the cone heater.
+
 
