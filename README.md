@@ -40,10 +40,10 @@ pip install numpy scipy
 ```
 ## Schematic Representation & Description of Scripts  
 
-The figure below illustrates the experimental setup and dimensions for the cone calorimeter heater, showing two idealized geometries: a **helical coil (HC)** arrangement (left) and a **truncated cone (TC)** (right). The constants are defined as $R_1 = R_2 = 40$ mm and $H = 65$ mm, following the ISO 5660 standard. The key parameters used in the calculations are also shown.  
+The figure below illustrates the experimental setup and dimensions for the cone calorimeter heater, showing two idealized geometries: a **helical coil (HC)** arrangement (left) and a **truncated cone (TC)** (right). The constants are defined as $R_1 = R_2 = 40$ mm and $H = 65$ mm, following the [ISO 5660](https://www.iso.org/standard/57957.html) standard. The key parameters used in the calculations are also shown.  
 
 ![Schematic of the experimental setup](images/Cone_ISOM.png)  
-*Figure: Schematic of the experimental setup and dimensions for the cone calorimeter heater (not to scale), illustrating two idealized geometries: a helical coil arrangement (left) and a truncated cone (right).*  
+*Figure 1: Schematic of the experimental setup and dimensions for the cone calorimeter heater (not to scale), illustrating two idealized geometries: a helical coil arrangement (left) and a truncated cone (right).*  
 
 ### View Factor Computation  
 
@@ -56,13 +56,13 @@ This repository contains four Python scripts for computing the **view factor (VF
 
 ### Parameters  
 
-- **For `VF_dA_to_HC.py` and `VF_dA_to_TC.py` (Differential Element to HC or TC)**:  
-  - $h, k$: $(x,y)$ coordinates of the center of the differential element.  
-  - $d$: Vertical distance from the cone heater base plate to the target ($d = d_1$).  
-  - $p$: Diameter of the differential element (in mm).  
+- **For `VF_dA_to_HC.py` and `VF_dA_to_TC.py` (Differential Element, $dA$ to HC or TC)**:  
+  - $h, k$: $(x,y)$ coordinates of the center of the differential element. In Fig. 1: $(h,k)=(x_g,y_g)$.
+  - $d$: Vertical distance from the cone heater to the differential element. **Note that you should account for the 5 mm thickness of the plate, $d_2$, in the calculation so that $d=d_1+d_2$** (see Fig. 1). For example, at the standard distance of $d_1=25$ mm, in the view factor calculation: $d=d_1+d_2 =30$ mm. 
+  - $p$: Diameter of the differential element (in mm).
 
 - **For `VF_sample_to_HC.py` and `VF_sample_to_TC.py` (Sample to HC or TC)**:  
-  - $d$: Vertical distance from the cone heater base plate to the target ($d = d_1$).  
+  - $d$: Vertical distance from the cone heater to the sample ($d = d_1$).  
   - $p$: Side length of the square sample (in mm).  
 
 These parameters, as illustrated in the schematic, define the spatial configuration for computing the view factors.  
