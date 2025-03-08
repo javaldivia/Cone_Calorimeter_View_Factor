@@ -93,6 +93,24 @@ Example output
 The View Factor is: 0.6690
 ```
 
+2. This example calculates the **View Factor** from a **standard square sample** with side length $p = 100$ mm, at a **standard distance** $d_1 = 25$ mm to the **Helical Coil** (HC).
+
+The corresponding Python script: **`VF_sample_to_HC.py`**
+```python
+d1 = 25       # in mm; standard distance
+d2 = 5        # in mm; cone base plate thickness
+d  = d1 + d2 
+p = 100       # in mm; side length of the sample (for each side of the square)
+
+VF = VF_sample_HC(d,p)
+print(f'The View Factor is: {VF:.4f}')
+```
+
+Example output
+```pgsql
+The View Factor is: 0.6216
+```
+
 ## Mathematical formulation
 
 ### Radiative heat flux
