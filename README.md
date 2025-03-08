@@ -1,6 +1,6 @@
 # Cone Calorimeter View Factor
 
-These set of codes calculates the view factor from a target (differential element or a sample surface) to the cone calorimeter heater. 
+These set of codes calculate the view factor from a target (differential element or a sample surface) to the cone calorimeter heater. If you find this code useful, we kindly ask you to cite our work.
 
 ## Version
 - **Version**: 1.0.0
