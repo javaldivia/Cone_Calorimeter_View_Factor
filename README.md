@@ -73,6 +73,25 @@ This repository contains four Python scripts for computing the **view factor (VF
 
 These parameters, as illustrated in the schematic, define the spatial configuration for computing the view factors.  
 
+#### Example: Calculating the View Factor
+
+1. Calculating the View Factor from a differential element of diameter $p=10^{-5}$ mm at $(h,k)=(0,0)$, at the standard distance $d=d_1+d_2=30$ mm, to the Helical Coil (HC), that is: **VF_dA_to_HC.py**.
+```python
+d1 = 25       # in mm; standard distance
+d2 = 5        # in mm; cone base plate thickness
+d  = d1 + d2  
+p  = 10**(-5) # in mm; diameter of the disk (differential element)
+h, k = 0, 0   # in mm; central location of the disk (differential element)
+
+VF = VF_dA_to_HC(h,k,d,p)
+print(f'The View Factor is: {VF:.4f}')
+```
+
+Example output
+```pgsql
+The View Factor is: 0.6690
+```
+
 ## Mathematical formulation
 
 ### Radiative heat flux
