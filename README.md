@@ -48,7 +48,7 @@ pip install numpy scipy
 
 The figure below illustrates the experimental setup and dimensions for the cone calorimeter heater, showing two idealized geometries: a **helical coil (HC)** arrangement (left) and a **truncated cone (TC)** (right). The constants are defined as $R_1 = R_2 = 40$ mm and $H = 65$ mm, following the [ISO 5660](https://www.iso.org/standard/57957.html) standard. The key parameters used in the calculations are also shown.  
 
-![Schematic of the experimental setup](images/Cone_ISOM.png)  
+![Schematic of the experimental setup](images/Cone_ISOM_HC_TC.png)  
 *Figure 1: Schematic of the experimental setup and dimensions for the cone calorimeter heater (not to scale), illustrating two idealized geometries: a helical coil arrangement (left) and a truncated cone (right).*  
 
 ### View Factor Computation  
