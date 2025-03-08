@@ -75,7 +75,8 @@ These parameters, as illustrated in the schematic, define the spatial configurat
 
 #### Example: Calculating the View Factor
 
-1. Calculating the View Factor from a differential element of diameter $p=10^{-5}$ mm at $(h,k)=(0,0)$, at the standard distance $d=d_1+d_2=30$ mm, to the Helical Coil (HC), that is: **VF_dA_to_HC.py**.
+1. This example calculates the **View Factor** from a **differential element** (a small disk of diameter $p=10^{-5}$ mm) at $(h,k)=(0,0)$, positioned at the **standard distance** $d_1=25$ mm, to the Helical Coil (HC).
+The corresponding Python script: **VF_dA_to_HC.py**
 ```python
 d1 = 25       # in mm; standard distance
 d2 = 5        # in mm; cone base plate thickness
