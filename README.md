@@ -133,5 +133,6 @@ F_{{i}\rightarrow{{j}}}=\dfrac{1}{2\pi A_{i}}\oint_{\Gamma_{j}}\oint_{\Gamma_{i}
 ```
 
 Here, $`R_{ij}`$ represents the Euclidean distance between the contours defined by the positions $`\boldsymbol{r}_{i}`$ and $`\boldsymbol{r}_{j}`$, respectively. This contour methodology is utilized to determine the view factor between the cone heater and targets (e.g., radiometer or small patch of a sample surface) positioned at various locations from the cone heater.
+
 This work focuses on calculating the view factor between a differential element, $dA$, a square sample of side length $L$, or a heat flux gauge sensor (disk) and the cone calorimeter heater. For a detailed derivation of the model, the reader is encouraged to refer to the paper.
 
