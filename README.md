@@ -12,10 +12,12 @@ These set of codes calculate the view factor from a target (differential element
 
 This repository provides Python scripts for analyzing radiative heat transfer in cone heater experiments, focusing on view factors and irradiance distribution. The code is based on the methodologies detailed in our paper:
 
-> Title: [Investigating radiation heat transfer from the cone calorimeter heater: a new view factor model and uncertainty quantification]  
-> Authors: [Pablo E. Pinto](https://orcid.org/0009-0005-2274-9746), [Jorge Valdivia](https://orcid.org/0009-0003-4251-1108), [Abhinandan Singh](https://orcid.org/0000-0002-7995-950X), [Xiuqi Xi](https://orcid.org/0000-0003-3245-232X), [Juan Cuevas](https://orcid.org/0000-0002-1504-5530), [James L. Urban](https://orcid.org/0000-0002-2476-8212)] 
-> Journal: [International Journal of Heat and Mass Transfer], *in press*, [2025].  
-> DOI: [https://doi.org/10.2139/ssrn.5085144]
+> **Title:** [Investigating radiation heat transfer from the cone calorimeter heater: a new view factor model and uncertainty quantification]  
+> **Authors:** [Pablo E. Pinto](https://orcid.org/0009-0005-2274-9746), [Jorge Valdivia](https://orcid.org/0009-0003-4251-1108), [Abhinandan Singh](https://orcid.org/0000-0002-7995-950X), [Xiuqi Xi](https://orcid.org/0000-0003-3245-232X), [Juan Cuevas](https://orcid.org/0000-0002-1504-5530), [James L. Urban](https://orcid.org/0000-0002-2476-8212)]  
+>  
+> **Journal:** *International Journal of Heat and Mass Transfer*, in press, [2025].  
+> **DOI:** [https://doi.org/10.2139/ssrn.5085144]
+
 
 The **preprint manuscript** is available in this repository under the filename **Cone_Heater_Paper.pdf**.
 
