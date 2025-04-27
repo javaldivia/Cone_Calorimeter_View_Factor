@@ -71,8 +71,9 @@ For detailed theoretical derivations and validation with experimental data, plea
 - `scipy`
 
 Install with:
-
+```python
 pip install numpy scipy
+```
 
 ---
 
@@ -131,7 +132,7 @@ VF = VF_dA_to_HC(h, k, d, p)
 print(f'The View Factor is: {VF:.4f}')
 ```
 Expected Output:
-```python
+```pgsql
 The View Factor is: 0.6690
 ```
 ---
@@ -147,7 +148,7 @@ VF = VF_sample_HC(d, p)
 print(f'The View Factor is: {VF:.4f}')
 ```
 Expected Output:
-```python
+```pgsql
 The View Factor is: 0.6216
 ```
 ---
