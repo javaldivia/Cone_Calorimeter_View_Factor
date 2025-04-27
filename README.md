@@ -173,4 +173,8 @@ This work focuses on calculating the view factor between a differential element,
 
 ## License
 
-This repository is provided under a permissive license for academic and research purposes. Please cite our article if you use these codes.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+This repository is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute this code, provided that proper credit is given.  
+If you use this repository or parts of it, please also cite our related publication.
