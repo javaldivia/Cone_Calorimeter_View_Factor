@@ -5,7 +5,17 @@ This repository provides Python codes to calculate view factors from a different
 If you find this code useful, please cite our work:
 
 [![Published Article](https://img.shields.io/badge/Article-International%20Journal%20of%20Heat%20and%20Mass%20Transfer-blue)](https://doi.org/10.1016/j.ijheatmasstransfer.2025.126976)
-
+```bibtex
+@article{Pinto2025,
+	title = {Investigating radiation heat transfer from the cone calorimeter heater: A new view factor model and uncertainty quantification},
+	journal = {International Journal of Heat and Mass Transfer},
+	volume = {245},
+	pages = {126976},
+	year = {2025},
+	doi = {https://doi.org/10.1016/j.ijheatmasstransfer.2025.126976},
+author = {Pablo E. Pinto and Jorge Valdivia and Abhinandan Singh and Xiuqi Xi and Juan Cuevas and James L. Urban},
+}
+```
 ---
 
 ## Repository Version
@@ -32,26 +42,6 @@ If you find this code useful, please cite our work:
 A **preprint manuscript** is included in this repository under the filename **Cone_Heater_Paper.pdf**.
 
 The scripts implement calculations related to view factors and spatial irradiance variations, enabling accurate assessment of heat flux distributions in standardized fire testing scenarios. These computations are particularly relevant to tests conducted under ISO 5660 and ASTM E1354, where uniformity of incident radiation is often assumed but requires further scrutiny.
-
----
-
-## Analysis of Radiative Heat Transfer in Cone Heater Experiments
-
-This repository provides Python scripts for analyzing radiative heat transfer in cone heater experiments, focusing on view factors and irradiance distribution. The code is based on the methodologies detailed in our paper:
-
-> **Title:** [Investigating radiation heat transfer from the cone calorimeter heater: a new view factor model and uncertainty quantification]  
-> **Authors:** [Pablo E. Pinto](https://orcid.org/0009-0005-2274-9746), [Jorge Valdivia](https://orcid.org/0009-0003-4251-1108), [Abhinandan Singh](https://orcid.org/0000-0002-7995-950X), [Xiuqi Xi](https://orcid.org/0000-0003-3245-232X), [Juan Cuevas](https://orcid.org/0000-0002-1504-5530), [James L. Urban](https://orcid.org/0000-0002-2476-8212)  
-> **Journal:** *International Journal of Heat and Mass Transfer*, in press, [2025].  
-> **DOI:** [https://doi.org/10.2139/ssrn.5085144]
-
-
-The **preprint manuscript** is available in this repository under the filename **Cone_Heater_Paper.pdf**.
-
-The scripts implement calculations related to view factors, spatial irradiance variations, and experimental data processing, enabling accurate assessment of heat flux distributions in standardized fire testing scenarios. These computations are particularly relevant to tests conducted under ISO 5660 and ASTM E1354, where uniformity of incident radiation is often assumed but requires further scrutiny.
-
-For a comprehensive discussion of the theoretical framework and experimental validation, please refer to the full paper. This repository serves as a practical implementation of the described methodologies.
-
----
 
 ## Background
 
