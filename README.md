@@ -7,12 +7,12 @@ If you find this code useful, please cite our work:
 [![Published Article](https://img.shields.io/badge/Article-International%20Journal%20of%20Heat%20and%20Mass%20Transfer-blue)](https://doi.org/10.1016/j.ijheatmasstransfer.2025.126976)
 ```bibtex
 @article{Pinto2025,
-	title = {Investigating radiation heat transfer from the cone calorimeter heater: A new view factor model and uncertainty quantification},
-	journal = {International Journal of Heat and Mass Transfer},
-	volume = {245},
-	pages = {126976},
-	year = {2025},
-	doi = {https://doi.org/10.1016/j.ijheatmasstransfer.2025.126976},
+title = {Investigating radiation heat transfer from the cone calorimeter heater: A new view factor model and uncertainty quantification},
+journal = {International Journal of Heat and Mass Transfer},
+volume = {245},
+pages = {126976},
+year = {2025},
+doi = {https://doi.org/10.1016/j.ijheatmasstransfer.2025.126976},
 author = {Pablo E. Pinto and Jorge Valdivia and Abhinandan Singh and Xiuqi Xi and Juan Cuevas and James L. Urban},
 }
 ```
